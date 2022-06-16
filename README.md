@@ -26,3 +26,8 @@
         }
     }
 ```
+비디오 파일명을 사용하여 비디오가 저장된 앱 내부의 파일 경로를 받아옵니다    
+앱 내부 파일명을 NSURL 형식으로 변경합니다.     
+AVPlayerViewController의 인스턴스 생성합니다.     
+앞에서 얻은 비디오 URL로 초기화된 AVPlayer의 인스턴스를 생성합니다.     
+AVPlayerViewController의 Player 속성에 AVPlayer에 생성된 인스턴스를 할당합니다.    
